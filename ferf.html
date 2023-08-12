@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-image: url("/igbg.png");
+            font-family: sans-serif;
+        }
+
+        img {
+            width: 20%;
+            margin: 3% 40%; 
+        }
+
+        form {
+            max-width: 34%;
+            margin: 0 auto;
+            padding: 20px;
+            border-style: inset;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            /* box-shadow: 1px 1px 30px rgb(238, 238, 241); */
+            backdrop-filter: blur(10px);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            border-color: #8179ee;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        textarea,
+        select {
+            width: 90%;
+            background: transparent;
+            padding: 8px;
+            color: #000000;
+            box-shadow: 1px 1px 15px rgb(245, 245, 248);
+            margin-bottom: 5%;
+            border: 1px solid #f6f5f8;
+            border-radius: 4px;
+
+        }
+
+        input[type="submit"] {
+            background-color: #f351f3;
+            color: rgb(241, 221, 233);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 193px;
+            position: relative;
+            margin-left: 130px;
+            letter-spacing: 5px;
+        }
+            input[type="submit"]:hover {
+            background-color: #bd0695;
+            transition: 1.9s;
+        }
+
+        #name {
+            font-family: crossorigin, monospace;
+            margin: 15px 3px;
+            font-size: 16px;
+            width: 85%;
+        }
+
+        #password {
+            font-family: crossorigin, monospace;
+            width: 85%;
+            height: 5vh;
+            margin: 15px 8px;
+            font-size: 16px;
+            color: #0e0e0f;
+            padding: 1%;
+  
+        }
+
+        .free {
+            width: 344px;
+            margin-left: 35%;
+            font-weight: bold;
+            color: rgb(18, 18, 19);
+            margin-bottom: 110px;
+        }
+        ::placeholder {
+            color: rgb(253, 246, 246);
+            padding: 10px ;
+        }
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .red i {
+            margin-left: 3px;
+        }
+
+        #blue {
+            margin: 15px 0px;
+            text-align: center;
+        
+        }
+
+        #blue a {
+           margin: 15px 0px;
+            text-decoration: none;
+            color: #f6f5f8;
+            text-align: center;
+        }
+
+        #submit{
+            text-align: center;
+        }
+        #green a {
+            padding-left: 8%;
+            margin: 15px 0px;
+            text-decoration: none;
+            list-style: none;
+            color: #f6f5f8;
+            
+        }
+
+        .fa-user:before {
+            content: "\f007";
+            color: antiquewhite;
+        }
+        #green {
+            
+            margin: 15px 0px;
+        }
+
+
+        .fa-key:before {
+            content: "\f084";
+            color: rgb(253, 246, 246);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="img">
+        <img src="/ig logo.png" alt="">
+    </div>
+
+
+    <form action="/submit_form" method="post">
+        
+        <div class="red">
+            <i class="fa-solid fa-user" style="color: #161718;"></i>
+            <input type="text" id="name" name="name" required placeholder="username,phone no or gmail ">
+        </div>
+        <div class="read">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" id="password" name="password" required placeholder="enter your password">
+        </div>
+        </select>
+        <div id="green">
+            <a href="#">Forget Password</a>
+        </div>
+        <input type="submit" id="submit" value="Login">
+
+        <div id="blue">
+            <a href="/signup.html">Dont have an account? <span style="color: blue; font-weight: bolder;">Register</span></a>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
