@@ -2,80 +2,59 @@
     margin: 0%;
     padding: 0%;
 }
-
 body {
    background-image: url("/bg.png");
 }
-
 .kia a {
     text-decoration: none;
     color: #551a8b;
 }
-
 .kia {
     margin-left: 7%;
     font-size: 100%;
 }
-
 .audi {
     text-decoration: none;
-    /* color: #e77ce7; */
     text-align: center;
     font-size: 120%;
-
 }
-
 .audi a {
     text-decoration: none;
     outline: none;
     color: #551a8b;
 }
-
 .bmw {
     width: 20%;
     margin: 3% 40%;
-
 }
-
 img {
     width: 100%;
 }
-
 ::placeholder {
     color: rgb(0, 0, 32);
     letter-spacing: 2px;
     padding-left: 1%;
 }
-
 .container {
     text-align: center;
     border: 2px solid whitesmoke;
-    /* margin: 15px 0px; */
     width: 40%;
     margin-left: 28%;
     padding: 3% 3% 0% 3%;
     border-style: inset;
 }
-
 .bike i {
     margin: 1%;
 }
-
 .car i {
     margin: 1%;
-
 }
-
 .supra i {
     margin: 1%;
-
 }
-
 .m5 i {
     margin: 1%;
-
 }
-
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -91,9 +70,7 @@ select {
     margin-bottom: 4%;
     border: 1px solid #f6f5f8;
     border-radius: 8px;
-
 }
-
 input[type="submit"] {
     background-color: #d100d1;
     color: rgb(247, 233, 241);
@@ -102,13 +79,10 @@ input[type="submit"] {
     border-radius: 8px;
     cursor: pointer;
     width: 40%;
-    /* position: relative; */
     margin-left: -1%;
     letter-spacing: 5px;
     padding: 1% 3%;
-
 }
-
 input[type="submit"]:hover {
     background-color: #d963fd;
     transition: 1.9s;
